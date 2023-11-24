@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: black;
+    width: fit-content;
+    padding: 2em;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+
+}
+
+input {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    margin: 2em 0;
+}
+
+label {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
